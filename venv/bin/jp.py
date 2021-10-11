@@ -1,4 +1,4 @@
-#!/home/alireza/Desktop/Gradientdp/venv/bin/python3
+#!/home/alireza/Desktop/Scraper/venv/bin/python3
 
 import sys
 import json
