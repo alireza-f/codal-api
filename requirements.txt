@@ -2,11 +2,10 @@ attrs==21.2.0
 Automat==20.2.0
 beautifulsoup4==4.10.0
 certifi==2021.10.8
-cffi==1.14.6
-charset-normalizer==2.0.6
+cffi==1.15.0
+charset-normalizer==2.0.7
 click==8.0.3
 constantly==15.1.0
-crochet==2.0.0
 cryptography==35.0.0
 cssselect==1.1.0
 Flask==2.0.2
@@ -14,7 +13,7 @@ h2==3.2.0
 hpack==3.0.0
 hyperframe==5.2.0
 hyperlink==21.0.0
-idna==3.2
+idna==3.3
 incremental==21.3.0
 itemadapter==0.4.0
 itemloaders==1.0.4
@@ -31,6 +30,7 @@ pyasn1-modules==0.2.8
 pycparser==2.20
 PyDispatcher==2.0.5
 pyOpenSSL==21.0.0
+pytz==2021.3
 queuelib==1.6.2
 requests==2.26.0
 Scrapy==2.5.1
@@ -44,5 +44,4 @@ Unidecode==1.3.2
 urllib3==1.26.7
 w3lib==1.22.0
 Werkzeug==2.0.2
-wrapt==1.13.1
 zope.interface==5.4.0
