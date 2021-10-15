@@ -49,7 +49,7 @@ def index():
     else:
         return render_template("index.html")
 
+# Thread(target=scraper).start()
 
 if __name__ == "__main__":
-    Thread(target=scraper).start()
-    app.run(host='0.0.0.0', port=5000, debug=False, threaded=True)
+    app.run(host='0.0.0.0', port=8000, debug=False, threaded=True)
