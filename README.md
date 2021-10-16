@@ -1,6 +1,5 @@
-## Codal Scraper
+## Codal API
 #### Overview
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Codal API is a Crawler that looks at reports of two stock ```خودرو``` and ‍‍‍‍```خساپا``` and returns stock DPS with the date.
 
