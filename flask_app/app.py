@@ -25,12 +25,7 @@ def db_connection():
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
-        # Enter json data:
 
-        # data = request.json
-        # symbol = data.get('symbol')
-
-        # Enter form data:
         symbol = request.form['symbol']
 
         sql_query = f"SELECT * FROM dps_table WHERE name='{symbol}'"
@@ -49,7 +44,6 @@ def index():
     else:
         return render_template("index.html")
 
-# Thread(target=scraper).start()
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8000, debug=False, threaded=True)
