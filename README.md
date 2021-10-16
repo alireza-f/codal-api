@@ -24,9 +24,9 @@ To run the application you need to install [Docker](https://docs.docker.com/engi
    ```sh
    git clone https://github.com/alireza-f/scrapy-api.git
    ```
-3. Build Containers
+3. Build and run Containers
    ```sh
-   docker-compose up
+   docker-compose up --build
    ```
 
 ## Usage
